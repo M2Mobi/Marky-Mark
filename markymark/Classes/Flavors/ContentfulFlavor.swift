@@ -23,6 +23,7 @@ open class ContentfulFlavor: Flavor {
 
     open var inlineRules: [InlineRule] = [
         LinkRule(),
+        ShortLinkRule(),
         BoldRule(),
         ItalicRule(),
         StrikeRule(),
